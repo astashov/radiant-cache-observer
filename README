@@ -1,0 +1,8 @@
+= Cache Observer
+
+Run user-defined script after clearing the cache.
+Script can be specified in app_root/config/cache.yml. If this file is not existed,
+the plugin will try to get script from app_root/vendor/extension/cache_observer/config/cache.yml.
+
+You just should copy app_root/vendor/extension/cache_observer/config/cache.yml to app_root/config/cache.yml
+and set script there.
